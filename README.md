@@ -18,7 +18,7 @@ Then browse and install plugins:
 
 | Plugin | Description |
 | --- | --- |
-| [`strata`](https://github.com/strata-space/strata-claude-plugin) | Mount Strata Spaces as local Markdown folders, and work with your Strata documents in conversation through the bundled MCP server: research with citations, publish local content, review with comments, and diagnose connectivity. |
+| [`strata`](https://github.com/strata-space/strata-claude-plugin) | Keep Strata Spaces in live two-way sync as local Markdown folders, and work with your Strata documents in conversation through the bundled MCP server: research with citations, publish local content, review with comments, and diagnose connectivity. |
 
 Install a specific plugin directly:
 
@@ -29,11 +29,11 @@ Install a specific plugin directly:
 ## What you get with `strata`
 
 The [`strata` plugin](https://github.com/strata-space/strata-claude-plugin) lets
-you mount your Strata Spaces as local Markdown folders and work with your Strata
-documents right inside a conversation through its bundled MCP server. It ships
-five skills:
+you keep your Strata Spaces in live two-way sync as local Markdown folders and
+work with your Strata documents right inside a conversation through its bundled
+MCP server. It ships five skills:
 
-- **strata-spaces** — mount or sync a Strata Space as a local folder of Markdown
+- **strata-spaces** — link a Strata Space to a local folder for live two-way sync (or mount it as a drive)
 - **strata-research** — answer questions from your knowledge base, with citations
 - **strata-publish** — push local content up into Strata
 - **strata-review** — leave anchored comments on a document without rewriting it
@@ -44,7 +44,7 @@ full documentation.
 
 ### Optional: the Strata CLI
 
-The filesystem and mount features need the Strata CLI. Install it with:
+The filesystem features (live sync and mount) need the Strata CLI. Install it with:
 
 ```
 brew install --cask strata-space/strata/strata

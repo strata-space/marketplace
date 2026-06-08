@@ -12,7 +12,7 @@
         "source": "github",
         "repo": "strata-space/strata-claude-plugin"
       },
-      "description": "Mount Strata Spaces as local Markdown folders, and work with your Strata documents in conversation through the bundled MCP server: research with citations, publish local content, review with comments, and diagnose connectivity.",
+      "description": "Keep Strata Spaces in live two-way sync as local Markdown folders, and work with your Strata documents in conversation through the bundled MCP server: research with citations, publish local content, review with comments, and diagnose connectivity.",
       "homepage": "https://strata.space",
       "repository": "https://github.com/strata-space/strata-claude-plugin",
       "license": "MIT",
