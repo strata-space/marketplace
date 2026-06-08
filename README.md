@@ -47,7 +47,7 @@ full documentation.
 The filesystem features (live sync and mount) need the Strata CLI. Install it with:
 
 ```
-brew install --cask strata-space/strata/strata
+brew install --cask strata-space/tap/strata
 ```
 
 The plugin can also install it for you on first run. See
