@@ -19,11 +19,13 @@ Then browse and install plugins:
 | Plugin | Description |
 | --- | --- |
 | [`strata`](https://github.com/strata-space/strata-claude-plugin) | Keep Strata Spaces in live two-way sync as local Markdown folders, and work with your Strata documents in conversation through the bundled MCP server: research with citations, publish local content, review with comments, and diagnose connectivity. |
+| [`strata-memory`](https://github.com/strata-space/strata-memory-plugin) | Turn a Strata Space into your coding agent's long-term memory: recall on every prompt, an update contract, and a stop-time nudge to write back what changed. Works in Claude Code and Codex. |
 
 Install a specific plugin directly:
 
 ```
 /plugin install strata@strata-space
+/plugin install strata-memory@strata-space
 ```
 
 ## What you get with `strata`
@@ -53,6 +55,21 @@ brew install --cask strata-space/tap/strata
 The plugin can also install it for you on first run. See
 [Install the Strata CLI](https://github.com/strata-space/strata-claude-plugin#install-the-strata-cli-optional)
 for details.
+
+## What you get with `strata-memory`
+
+The [`strata-memory` plugin](https://github.com/strata-space/strata-memory-plugin)
+makes a Strata Space your coding agent's long-term memory. On every prompt it
+hybrid-searches the bound Space and surfaces relevant documents; the agent is
+held to a standing contract to update any document whose facts its work
+changed, with a gentle stop-time nudge when it forgets. Recall is fail-open:
+a slow or unreachable backend never delays your prompt.
+
+It requires the Strata CLI (3.3.0+, same brew install as above). Bind a Space
+with `strata memory init`, or ask your agent to run the **strata-memory-init**
+skill. It also works in Codex; see the
+[plugin README](https://github.com/strata-space/strata-memory-plugin) for both
+hosts' install steps.
 
 ## How this is organized
 

@@ -26,6 +26,26 @@
         "knowledge-base",
         "filesystem"
       ]
+    },
+    {
+      "name": "strata-memory",
+      "source": {
+        "source": "github",
+        "repo": "strata-space/strata-memory-plugin"
+      },
+      "description": "Turn a Strata Space into your coding agent's long-term memory: hybrid-search recall on every prompt, a sourced-fact update contract, and a stop-time nudge so the agent keeps its own memory current. Works in Claude Code and Codex; requires the strata CLI.",
+      "homepage": "https://strata.space",
+      "repository": "https://github.com/strata-space/strata-memory-plugin",
+      "license": "MIT",
+      "category": "knowledge",
+      "keywords": [
+        "strata",
+        "memory",
+        "agent-memory",
+        "mcp",
+        "hooks",
+        "knowledge-base"
+      ]
     }
   ]
 }
