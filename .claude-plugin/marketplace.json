@@ -53,7 +53,7 @@
         "source": "github",
         "repo": "strata-space/strata-claude-mod"
       },
-      "description": "A StrataSpace document pane beside the chat in Claude Code: opens when Claude reads a document, a band tracks what Claude read and when it changed, a Space explorer and review queue (/strata), @strata: mentions, and live presence with the strata CLI. Requires the strata plugin.",
+      "description": "A StrataSpace document pane beside the chat in Claude Code: opens when Claude reads a document, a band tracks what Claude read and when it changed, a Space explorer and review queue (/strata), @strata: mentions, and live presence with the strata CLI. Works on its own or beside the strata plugin.",
       "homepage": "https://strata.space",
       "repository": "https://github.com/strata-space/strata-claude-mod",
       "license": "MIT",
