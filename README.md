@@ -20,12 +20,14 @@ Then browse and install plugins:
 | --- | --- |
 | [`strata`](https://github.com/strata-space/strata-claude-plugin) | Keep Strata Spaces in live two-way sync as local Markdown folders, and work with your Strata documents in conversation through the bundled MCP server: research with citations, publish local content, review with comments, and diagnose connectivity. |
 | [`strata-memory`](https://github.com/strata-space/strata-memory-plugin) | Turn a Strata Space into your coding agent's long-term memory: recall on every prompt, an update contract, and a stop-time nudge to write back what changed. Works in Claude Code and Codex. |
+| [`strata-mod`](https://github.com/strata-space/strata-claude-mod) | A StrataSpace document pane beside the chat in Claude Code, a band that tracks what Claude read, a Space explorer and review queue, and live presence with the strata CLI. Requires the `strata` plugin. Claude Code only. |
 
 Install a specific plugin directly:
 
 ```
 /plugin install strata@strata-space
 /plugin install strata-memory@strata-space
+/plugin install strata-mod@strata-space
 ```
 
 ## What you get with `strata`
